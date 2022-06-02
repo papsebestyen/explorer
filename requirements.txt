@@ -2,3 +2,4 @@ aswan
 requests
 beautifulsoup4
 pandas-profiling[notebook]
+jupyter-book
