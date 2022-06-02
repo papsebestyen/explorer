@@ -88,12 +88,12 @@ The exploration notebooks can be checked by clicking on the {badge}`Open Noteboo
 ::::{div} row 
 
 
-```{image} ../datasets/covid_victims/intro/assets/out-12.png
+```{image} ../datasets/covid_victims/intro/assets/out-8.png
 :class: myslides start-dis 
 :align: center
 ```
 
-```{image} ../datasets/covid_victims/intro/assets/out-15.png
+```{image} ../datasets/covid_victims/intro/assets/out-11.png
 :class: myslides start-dis 
 :align: center
 ```
@@ -101,12 +101,12 @@ The exploration notebooks can be checked by clicking on the {badge}`Open Noteboo
 
 
 :::{div} myslides start-dis col-12 slide-container
-```{include} ../datasets/covid_victims/intro/assets/out-14.html
+```{include} ../datasets/covid_victims/intro/assets/out-10.html
 ```
 :::
 
 :::{div} myslides start-dis col-12 slide-container
-```{include} ../datasets/covid_victims/intro/assets/out-17.html
+```{include} ../datasets/covid_victims/intro/assets/out-13.html
 ```
 :::
 
@@ -164,11 +164,11 @@ Some datasets are updated periodically. In this case, you can check the updating
 ```
 
 ```{div} col-5
- <a href="file:///tmp/tmpjvby9uur/covid_victims/covid_victim.csv">{badge}`Download CSV,badge-primary`</a>
+ <a href="file:///tmp/tmpnp30hlo8/covid_victims/covid_victim.csv">{badge}`Download CSV,badge-primary`</a>
 ```
 
 ```{div} col-3
- <a href="file:///tmp/tmpjvby9uur/covid_victims/covid_victim-profile.html">{badge}`Open Table Profile,badge-success`</a>
+ <a href="file:///tmp/tmpnp30hlo8/covid_victims/covid_victim-profile.html">{badge}`Open Table Profile,badge-success`</a>
 ```
 
 ::::
@@ -181,7 +181,7 @@ Some datasets are updated periodically. In this case, you can check the updating
 ```
 
 ```{div} col-5
-**Last Changed**: 2022-06-02 14:46
+**Last Changed**: 2022-06-02 14:53
 ```
 
 ```{div} col-3
