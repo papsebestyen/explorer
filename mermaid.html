@@ -108,8 +108,8 @@ const thebe_selector_output = ".output, .cell_output"
   </ul>
  </li>
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="dataset-pages/scimago_journals.html">
-   Scimago Journals
+  <a class="reference internal" href="dataset-pages/pypi_downloads.html">
+   Pypi Downloads
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
   <label for="toctree-checkbox-2">
@@ -118,59 +118,8 @@ const thebe_selector_output = ".output, .cell_output"
   </label>
   <ul>
    <li class="toctree-l2">
-    <a class="reference internal" href="datasets/scimago_journals/intro.html">
-     Field Analysis
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toctree-l1 has-children">
-  <a class="reference internal" href="dataset-pages/pypi_downloads.html">
-   Pypi Downloads
-  </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
-  <label for="toctree-checkbox-3">
-   <i class="fas fa-chevron-down">
-   </i>
-  </label>
-  <ul>
-   <li class="toctree-l2">
     <a class="reference internal" href="datasets/pypi_downloads/intro.html">
      Usage Analysis
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toctree-l1 has-children">
-  <a class="reference internal" href="dataset-pages/repec_via_nep.html">
-   RePEc via NEP
-  </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
-  <label for="toctree-checkbox-4">
-   <i class="fas fa-chevron-down">
-   </i>
-  </label>
-  <ul>
-   <li class="toctree-l2">
-    <a class="reference internal" href="datasets/repec_via_nep/intro.html">
-     Papers Analysis
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toctree-l1 has-children">
-  <a class="reference internal" href="dataset-pages/hungarian_elections.html">
-   Hungarian Elections
-  </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
-  <label for="toctree-checkbox-5">
-   <i class="fas fa-chevron-down">
-   </i>
-  </label>
-  <ul>
-   <li class="toctree-l2">
-    <a class="reference internal" href="datasets/hungarian_elections/intro.html">
-     Hungarian elections analysis
     </a>
    </li>
   </ul>
@@ -275,49 +224,10 @@ const thebe_selector_output = ".output, .cell_output"
                 flowchart LR
         
         covid_victims([Covid Victims]) --- covid_victims_covid_victim[Covid Victim]
-        click covid_victims_covid_victim href &quot;file:///tmp/tmpsfqy2vlm/covid_victims/covid_victim-profile.html&quot; &quot;Profile&quot;
-        
-        scimago_journals([Scimago Journals]) --- scimago_journals_journal[Journal]
-        click scimago_journals_journal href &quot;file:///tmp/tmpsfqy2vlm/scimago_journals/journal-profile.html&quot; &quot;Profile&quot;
+        click covid_victims_covid_victim href &quot;file:///tmp/tmp7_cc4sog/covid_victims/covid_victim-profile.html&quot; &quot;Profile&quot;
         
         pypi_downloads([Pypi Downloads]) --- pypi_downloads_package_download[Package Download]
-        click pypi_downloads_package_download href &quot;file:///tmp/tmpsfqy2vlm/pypi_downloads/package_download-profile.html&quot; &quot;Profile&quot;
-        
-        repec_via_nep([RePEc via NEP]) --- repec_via_nep_authorship[Authorship]
-        click repec_via_nep_authorship href &quot;file:///tmp/tmpsfqy2vlm/repec_via_nep/authorship-profile.html&quot; &quot;Profile&quot;
-        
-        repec_via_nep([RePEc via NEP]) --- repec_via_nep_nep_inclusion[Nep Inclusion]
-        click repec_via_nep_nep_inclusion href &quot;file:///tmp/tmpsfqy2vlm/repec_via_nep/nep_inclusion-profile.html&quot; &quot;Profile&quot;
-        
-        repec_via_nep([RePEc via NEP]) --- repec_via_nep_nep_issue[Nep Issue]
-        click repec_via_nep_nep_issue href &quot;file:///tmp/tmpsfqy2vlm/repec_via_nep/nep_issue-profile.html&quot; &quot;Profile&quot;
-        
-        repec_via_nep([RePEc via NEP]) --- repec_via_nep_nep[Nep]
-        click repec_via_nep_nep href &quot;file:///tmp/tmpsfqy2vlm/repec_via_nep/nep-profile.html&quot; &quot;Profile&quot;
-        
-        repec_via_nep([RePEc via NEP]) --- repec_via_nep_paper[Paper]
-        click repec_via_nep_paper href &quot;file:///tmp/tmpsfqy2vlm/repec_via_nep/paper-profile.html&quot; &quot;Profile&quot;
-        
-        hungarian_elections([Hungarian Elections]) --- hungarian_elections_affiliation[Affiliation]
-        click hungarian_elections_affiliation href &quot;file:///tmp/tmpsfqy2vlm/hungarian_elections/affiliation-profile.html&quot; &quot;Profile&quot;
-        
-        hungarian_elections([Hungarian Elections]) --- hungarian_elections_nominating_organization[Nominating Organization]
-        click hungarian_elections_nominating_organization href &quot;file:///tmp/tmpsfqy2vlm/hungarian_elections/nominating_organization-profile.html&quot; &quot;Profile&quot;
-        
-        hungarian_elections([Hungarian Elections]) --- hungarian_elections_election[Election]
-        click hungarian_elections_election href &quot;file:///tmp/tmpsfqy2vlm/hungarian_elections/election-profile.html&quot; &quot;Profile&quot;
-        
-        hungarian_elections([Hungarian Elections]) --- hungarian_elections_district_hierarchy[District Hierarchy]
-        click hungarian_elections_district_hierarchy href &quot;file:///tmp/tmpsfqy2vlm/hungarian_elections/district_hierarchy-profile.html&quot; &quot;Profile&quot;
-        
-        hungarian_elections([Hungarian Elections]) --- hungarian_elections_geographical_unit[Geographical Unit]
-        click hungarian_elections_geographical_unit href &quot;file:///tmp/tmpsfqy2vlm/hungarian_elections/geographical_unit-profile.html&quot; &quot;Profile&quot;
-        
-        hungarian_elections([Hungarian Elections]) --- hungarian_elections_election_precinct[Election Precinct]
-        click hungarian_elections_election_precinct href &quot;file:///tmp/tmpsfqy2vlm/hungarian_elections/election_precinct-profile.html&quot; &quot;Profile&quot;
-        
-        hungarian_elections([Hungarian Elections]) --- hungarian_elections_vote_record[Vote Record]
-        click hungarian_elections_vote_record href &quot;file:///tmp/tmpsfqy2vlm/hungarian_elections/vote_record-profile.html&quot; &quot;Profile&quot;
+        click pypi_downloads_package_download href &quot;file:///tmp/tmp7_cc4sog/pypi_downloads/package_download-profile.html&quot; &quot;Profile&quot;
         
         </div>
     <script type="text/x-thebe-config">
