@@ -88,7 +88,7 @@ The exploration notebooks can be checked by clicking on the {badge}`Open Noteboo
 ::::{div} row 
 
 
-```{image} ../datasets/covid_victims/intro/assets/out-11.png
+```{image} ../datasets/covid_victims/intro/assets/out-12.png
 :class: myslides start-dis 
 :align: center
 ```
@@ -164,11 +164,11 @@ Some datasets are updated periodically. In this case, you can check the updating
 ```
 
 ```{div} col-5
- <a href="file:///tmp/tmpxe65c2th/covid_victims/covid_victim.csv">{badge}`Download CSV,badge-primary`</a>
+ <a href="file:///tmp/tmp1vlr2fek/covid_victims/covid_victim.csv">{badge}`Download CSV,badge-primary`</a>
 ```
 
 ```{div} col-3
- <a href="file:///tmp/tmpxe65c2th/covid_victims/covid_victim-profile.html">{badge}`Open Table Profile,badge-success`</a>
+ <a href="file:///tmp/tmp1vlr2fek/covid_victims/covid_victim-profile.html">{badge}`Open Table Profile,badge-success`</a>
 ```
 
 ::::
@@ -181,7 +181,7 @@ Some datasets are updated periodically. In this case, you can check the updating
 ```
 
 ```{div} col-5
-**Last Changed**: 2022-06-02 12:48
+**Last Changed**: 2022-06-02 13:06
 ```
 
 ```{div} col-3
