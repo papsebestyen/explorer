@@ -1,3 +1,4 @@
 aswan
 requests
 beautifulsoup4
+pandas-profiling[notebook]
