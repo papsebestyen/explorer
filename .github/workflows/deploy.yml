@@ -22,6 +22,7 @@ jobs:
       env:
         ZIMMER_FULL_AUTH: ${{ secrets.ZIMMER_FULL_AUTH }}
         GIT_HTTPS_TOKEN: ${{ secrets.GIT_HTTPS_TOKEN }}
+        MPLBACKEND: module://matplotlib_inline.backend_inline
     - name: GitHub Pages action
       uses: peaceiris/actions-gh-pages@v3
       with:
