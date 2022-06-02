@@ -1,4 +1,3 @@
-datazimmer[explorer]
 aswan
 requests
 beautifulsoup4
