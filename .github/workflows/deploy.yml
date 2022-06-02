@@ -18,7 +18,7 @@ jobs:
         "leo@dumbartonserum.com";git config --global user.name "Leo Dumbarton";git
         pull --tags
     - name: Build the book
-      run: dz load-explorer-data && dz build-explorer
+      run: ipython notebook --matplotlib=inline && dz load-explorer-data && dz build-explorer
       env:
         ZIMMER_FULL_AUTH: ${{ secrets.ZIMMER_FULL_AUTH }}
         GIT_HTTPS_TOKEN: ${{ secrets.GIT_HTTPS_TOKEN }}
