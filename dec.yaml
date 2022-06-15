@@ -1,4 +1,4 @@
-remote: sscub-public-explorer
+remote: null
 datasets:
   - name: Covid Victims
     project: dabble
