@@ -2,7 +2,7 @@ name: Build and Deploy Book
 on:
   push:
     branches:
-    - main
+    - separated
 jobs:
   build-and-deploy-book:
     runs-on: ubuntu-latest
