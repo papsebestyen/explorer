@@ -58,7 +58,7 @@ erDiagram
     VARCHAR vid PK 
   }
   affiliation ||--|{ nominating_organization : "organization -> nid"
-  district_hierarchy ||--|{ geographical_unit : "child -> unit_id; parent -> unit_id"
+  district_hierarchy ||--|{ geographical_unit : "parent -> unit_id; child -> unit_id"
   election_precinct ||--|{ geographical_unit : "geo_unit_id -> unit_id"
   election_precinct ||--|{ election : "election_id -> election_id"
   vote_record ||--|{ election_precinct : "precinct_id -> precinct_id"
@@ -179,11 +179,11 @@ Some datasets are updated periodically. In this case, you can check the updating
 ```
 
 ```{div} col-5
- <a href="file:///tmp/tmp7trqzor7/hungarian_elections/affiliation.csv">{badge}`Download CSV,badge-primary`</a>
+ <a href="file:///tmp/tmpcd3f854y/hungarian_elections/affiliation.csv">{badge}`Download CSV,badge-primary`</a>
 ```
 
 ```{div} col-3
- <a href="file:///tmp/tmp7trqzor7/hungarian_elections/affiliation-profile.html">{badge}`Open Table Profile,badge-success`</a>
+ <a href="file:///tmp/tmpcd3f854y/hungarian_elections/affiliation-profile.html">{badge}`Open Table Profile,badge-success`</a>
 ```
 
 ::::
@@ -196,7 +196,7 @@ Some datasets are updated periodically. In this case, you can check the updating
 ```
 
 ```{div} col-5
-**Last Changed**: 2022-06-28 15:16
+**Last Changed**: 2022-06-29 15:50
 ```
 
 ```{div} col-3
@@ -270,11 +270,11 @@ Some datasets are updated periodically. In this case, you can check the updating
 ```
 
 ```{div} col-5
- <a href="file:///tmp/tmp7trqzor7/hungarian_elections/nominating_organization.csv">{badge}`Download CSV,badge-primary`</a>
+ <a href="file:///tmp/tmpcd3f854y/hungarian_elections/nominating_organization.csv">{badge}`Download CSV,badge-primary`</a>
 ```
 
 ```{div} col-3
- <a href="file:///tmp/tmp7trqzor7/hungarian_elections/nominating_organization-profile.html">{badge}`Open Table Profile,badge-success`</a>
+ <a href="file:///tmp/tmpcd3f854y/hungarian_elections/nominating_organization-profile.html">{badge}`Open Table Profile,badge-success`</a>
 ```
 
 ::::
@@ -287,7 +287,7 @@ Some datasets are updated periodically. In this case, you can check the updating
 ```
 
 ```{div} col-5
-**Last Changed**: 2022-06-28 15:16
+**Last Changed**: 2022-06-29 15:50
 ```
 
 ```{div} col-3
@@ -355,11 +355,11 @@ Some datasets are updated periodically. In this case, you can check the updating
 ```
 
 ```{div} col-5
- <a href="file:///tmp/tmp7trqzor7/hungarian_elections/election.csv">{badge}`Download CSV,badge-primary`</a>
+ <a href="file:///tmp/tmpcd3f854y/hungarian_elections/election.csv">{badge}`Download CSV,badge-primary`</a>
 ```
 
 ```{div} col-3
- <a href="file:///tmp/tmp7trqzor7/hungarian_elections/election-profile.html">{badge}`Open Table Profile,badge-success`</a>
+ <a href="file:///tmp/tmpcd3f854y/hungarian_elections/election-profile.html">{badge}`Open Table Profile,badge-success`</a>
 ```
 
 ::::
@@ -372,7 +372,7 @@ Some datasets are updated periodically. In this case, you can check the updating
 ```
 
 ```{div} col-5
-**Last Changed**: 2022-06-28 15:16
+**Last Changed**: 2022-06-29 15:50
 ```
 
 ```{div} col-3
@@ -452,11 +452,11 @@ Some datasets are updated periodically. In this case, you can check the updating
 ```
 
 ```{div} col-5
- <a href="file:///tmp/tmp7trqzor7/hungarian_elections/district_hierarchy.csv">{badge}`Download CSV,badge-primary`</a>
+ <a href="file:///tmp/tmpcd3f854y/hungarian_elections/district_hierarchy.csv">{badge}`Download CSV,badge-primary`</a>
 ```
 
 ```{div} col-3
- <a href="file:///tmp/tmp7trqzor7/hungarian_elections/district_hierarchy-profile.html">{badge}`Open Table Profile,badge-success`</a>
+ <a href="file:///tmp/tmpcd3f854y/hungarian_elections/district_hierarchy-profile.html">{badge}`Open Table Profile,badge-success`</a>
 ```
 
 ::::
@@ -469,7 +469,7 @@ Some datasets are updated periodically. In this case, you can check the updating
 ```
 
 ```{div} col-5
-**Last Changed**: 2022-06-28 15:16
+**Last Changed**: 2022-06-29 15:50
 ```
 
 ```{div} col-3
@@ -543,11 +543,11 @@ Some datasets are updated periodically. In this case, you can check the updating
 ```
 
 ```{div} col-5
- <a href="file:///tmp/tmp7trqzor7/hungarian_elections/geographical_unit.csv">{badge}`Download CSV,badge-primary`</a>
+ <a href="file:///tmp/tmpcd3f854y/hungarian_elections/geographical_unit.csv">{badge}`Download CSV,badge-primary`</a>
 ```
 
 ```{div} col-3
- <a href="file:///tmp/tmp7trqzor7/hungarian_elections/geographical_unit-profile.html">{badge}`Open Table Profile,badge-success`</a>
+ <a href="file:///tmp/tmpcd3f854y/hungarian_elections/geographical_unit-profile.html">{badge}`Open Table Profile,badge-success`</a>
 ```
 
 ::::
@@ -560,7 +560,7 @@ Some datasets are updated periodically. In this case, you can check the updating
 ```
 
 ```{div} col-5
-**Last Changed**: 2022-06-28 15:16
+**Last Changed**: 2022-06-29 15:50
 ```
 
 ```{div} col-3
@@ -640,11 +640,11 @@ Some datasets are updated periodically. In this case, you can check the updating
 ```
 
 ```{div} col-5
- <a href="file:///tmp/tmp7trqzor7/hungarian_elections/election_precinct.csv">{badge}`Download CSV,badge-primary`</a>
+ <a href="file:///tmp/tmpcd3f854y/hungarian_elections/election_precinct.csv">{badge}`Download CSV,badge-primary`</a>
 ```
 
 ```{div} col-3
- <a href="file:///tmp/tmp7trqzor7/hungarian_elections/election_precinct-profile.html">{badge}`Open Table Profile,badge-success`</a>
+ <a href="file:///tmp/tmpcd3f854y/hungarian_elections/election_precinct-profile.html">{badge}`Open Table Profile,badge-success`</a>
 ```
 
 ::::
@@ -657,7 +657,7 @@ Some datasets are updated periodically. In this case, you can check the updating
 ```
 
 ```{div} col-5
-**Last Changed**: 2022-06-28 15:16
+**Last Changed**: 2022-06-29 15:50
 ```
 
 ```{div} col-3
@@ -761,11 +761,11 @@ Some datasets are updated periodically. In this case, you can check the updating
 ```
 
 ```{div} col-5
- <a href="file:///tmp/tmp7trqzor7/hungarian_elections/vote_record.csv">{badge}`Download CSV,badge-primary`</a>
+ <a href="file:///tmp/tmpcd3f854y/hungarian_elections/vote_record.csv">{badge}`Download CSV,badge-primary`</a>
 ```
 
 ```{div} col-3
- <a href="file:///tmp/tmp7trqzor7/hungarian_elections/vote_record-profile.html">{badge}`Open Table Profile,badge-success`</a>
+ <a href="file:///tmp/tmpcd3f854y/hungarian_elections/vote_record-profile.html">{badge}`Open Table Profile,badge-success`</a>
 ```
 
 ::::
@@ -778,7 +778,7 @@ Some datasets are updated periodically. In this case, you can check the updating
 ```
 
 ```{div} col-5
-**Last Changed**: 2022-06-28 15:16
+**Last Changed**: 2022-06-29 15:50
 ```
 
 ```{div} col-3
