@@ -164,11 +164,11 @@ Some datasets are updated periodically. In this case, you can check the updating
 ```
 
 ```{div} col-5
- <a href="file:///tmp/tmpmpsyc9_9/covid_victims/covid_victim.csv">{badge}`Download CSV,badge-primary`</a>
+ <a href="file:///tmp/tmppj444y55/covid_victims/covid_victim.csv">{badge}`Download CSV,badge-primary`</a>
 ```
 
 ```{div} col-3
- <a href="file:///tmp/tmpmpsyc9_9/covid_victims/covid_victim-profile.html">{badge}`Open Table Profile,badge-success`</a>
+ <a href="file:///tmp/tmppj444y55/covid_victims/covid_victim-profile.html">{badge}`Open Table Profile,badge-success`</a>
 ```
 
 ::::
@@ -181,7 +181,7 @@ Some datasets are updated periodically. In this case, you can check the updating
 ```
 
 ```{div} col-5
-**Last Changed**: 2022-08-04 15:14
+**Last Changed**: 2022-08-05 15:12
 ```
 
 ```{div} col-3
