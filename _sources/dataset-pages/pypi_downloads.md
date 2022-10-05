@@ -169,11 +169,11 @@ Some datasets are updated periodically. In this case, you can check the updating
 ```
 
 ```{div} col-5
- <a href="file:///tmp/tmpjrv8q33o/pypi_downloads/package_download.csv">{badge}`Download CSV,badge-primary`</a>
+ <a href="file:///tmp/tmpkd6o8y4_/pypi_downloads/package_download.csv">{badge}`Download CSV,badge-primary`</a>
 ```
 
 ```{div} col-3
- <a href="file:///tmp/tmpjrv8q33o/pypi_downloads/package_download-profile.html">{badge}`Open Table Profile,badge-success`</a>
+ <a href="file:///tmp/tmpkd6o8y4_/pypi_downloads/package_download-profile.html">{badge}`Open Table Profile,badge-success`</a>
 ```
 
 ::::
@@ -186,7 +186,7 @@ Some datasets are updated periodically. In this case, you can check the updating
 ```
 
 ```{div} col-5
-**Last Changed**: 2022-10-04 15:20
+**Last Changed**: 2022-10-05 15:17
 ```
 
 ```{div} col-3
