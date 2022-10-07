@@ -163,11 +163,11 @@ Some datasets are updated periodically. In this case, you can check the updating
 ```
 
 ```{div} col-5
- <a href="file:///tmp/tmp5vr7vj_y/scimago_journals/journal.csv">{badge}`Download CSV,badge-primary`</a>
+ <a href="file:///tmp/tmp3slbf9id/scimago_journals/journal.csv">{badge}`Download CSV,badge-primary`</a>
 ```
 
 ```{div} col-3
- <a href="file:///tmp/tmp5vr7vj_y/scimago_journals/journal-profile.html">{badge}`Open Table Profile,badge-success`</a>
+ <a href="file:///tmp/tmp3slbf9id/scimago_journals/journal-profile.html">{badge}`Open Table Profile,badge-success`</a>
 ```
 
 ::::
@@ -180,7 +180,7 @@ Some datasets are updated periodically. In this case, you can check the updating
 ```
 
 ```{div} col-5
-**Last Changed**: 2022-10-06 15:18
+**Last Changed**: 2022-10-07 15:17
 ```
 
 ```{div} col-3
